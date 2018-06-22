@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="ar_corner4" size="1.000000 1.000000"/>
+        <ImageTarget name="ar_corner3" size="1.000000 1.000000"/>
+        <ImageTarget name="ar_corner2" size="1.000000 1.000000"/>
+        <ImageTarget name="ar_corner1" size="1.000000 1.000000"/>
+        <ImageTarget name="ar_marker" size="10.000000 10.000000"/>
+        <ImageTarget name="cubito.Bottom" size="0.055000 0.055000"/>
+        <ImageTarget name="cubito.Left" size="0.055000 0.055000"/>
+        <ImageTarget name="cubito.Right" size="0.055000 0.055000"/>
+        <ImageTarget name="cubito.Top" size="0.055000 0.055000"/>
+        <ImageTarget name="cubito.Front" size="0.055000 0.055000"/>
+        <ImageTarget name="cubito.Back" size="0.055000 0.055000"/>
+        <MultiTarget name="cubito">
+            <Part name="cubito.Left" translation="-0.027499999850988388 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="cubito.Right" translation="0.027499999850988388 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="cubito.Front" translation="0 0 0.027499999850988388" rotation="AD: 1 0 0 0"/>
+            <Part name="cubito.Back" translation="0 0 -0.027499999850988388" rotation="AD: 0 1 0 180"/>
+            <Part name="cubito.Top" translation="0 0.027499999850988388 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="cubito.Bottom" translation="0 -0.027499999850988388 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
